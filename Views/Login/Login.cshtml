@@ -1,0 +1,72 @@
+﻿<style>
+    /* General form styling */
+    .form-title {
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .registration-form-container, .login-form-container {
+        padding: 60px 0;
+        background-color: #f9f9f9;
+    }
+
+    .registration-form, .login-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        height: 45px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .btn-block {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: #ff6f61;
+        border-color: #ff6f61;
+    }
+
+        .btn-block:hover {
+            background-color: #e65b50;
+            border-color: #e65b50;
+        }
+
+    .text-center a {
+        color: #ff6f61;
+    }
+
+        .text-center a:hover {
+            text-decoration: underline;
+        }
+</style>
+<div class="login-form-container">
+    <div class="container">
+        <h2 class="form-title text-center">Login to Your Account</h2>
+        <form action="/login/login" method="post" class="login-form">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="Password" name="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+            <p class="text-center mt-3"><a href="/forgot-password">Forgot your password?</a></p>
+            <p class="text-center">Don't have an account? <a href="/login/signup">Register here</a></p>
+        </form>
+    </div>
+</div>

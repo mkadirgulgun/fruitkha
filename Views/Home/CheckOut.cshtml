@@ -1,0 +1,175 @@
+﻿@model User
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p>Fresh and Organic</p>
+                    <h1>Check Out Product</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end breadcrumb section -->
+<!-- check out section -->
+<form action="/shop/TakePayment" method="post">
+<div class="checkout-section mt-150 mb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="checkout-accordion-wrap">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card single-accordion">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Shipping Address
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="shipping-address-form">
+                                        <div class="user-information-section">
+                                            <h2>Kullanıcı Bilgileri</h2>
+                                                <div class="form-group">
+                                                    <label for="firstName">Ad Soyad:</label>
+                                                    <input type="text" id="firstName" name="Name" class="form-control" required value="@Model.Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="email">E-posta:</label>
+                                                    <input type="email" id="email" name="Email" class="form-control" required value="@Model.Email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="address">Adres:</label>
+                                                    <input type="text" id="address" name="Address" class="form-control" required value="@Model.Address">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="city">Şehir:</label>
+                                                    <input type="text" id="city" name="City" class="form-control" required value="@Model.City">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="zip">Posta Kodu:</label>
+                                                    <input type="text" id="zip" name="ZipCode" class="form-control" required value="@Model.ZipCode">
+                                                </div>
+                                                @ViewData["Message"]
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card single-accordion">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Card Details
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="card-details">
+                                        <div class="payment-information-section">
+                                            <h2>Ödeme Bilgileri</h2>
+                                            <h6>Hesaplar müesseseden 😁</h6>
+                                            <div class="form-group">
+                                                <label for="cardName">Kart Üzerindeki İsim:</label>
+                                                <input type="text" id="cardName" name="CardName" readonly class="form-control" placeholder="Mehmet Kadir Gülgün">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="cardNumber">Kart Numarası:</label>
+                                                <input type="text" id="cardNumber" name="CardNumber" placeholder="1234 5678 9987 6543" readonly class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="expiryDate">Son Kullanma Tarihi:</label>
+                                                <input type="text" id="expiryDate" name="ExpiryDate" readonly placeholder="08/16" class="form-control" placeholder="MM/YY">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="cvv">CVV:</label>
+                                                <input type="text" id="cvv" name="CVV" readonly placeholder="505" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="order-details-wrap">
+                    <table class="order-details">
+                        <thead>
+                            <tr>
+                                <th>Your order Details</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody class="order-details-body">
+                            <tr>
+                                <td>Product</td>
+                                <td>Total</td>
+                            </tr>
+                                @foreach (var product in ViewBag.CheckOut)
+                            {
+
+                                <tr>
+                                    <td>@product.ProductName - (@product.Quantity KG)</td>
+                                    <td>@(product.ProductPrice * product.Quantity)</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                        <tbody class="checkout-details">
+                            <tr>
+                                <td>Toplam</td>
+                                <td>@ViewBag.SubTotal</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                        <button type="submit" class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i> Siparisi Tamamla
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
+<!-- end check out section -->
+<!-- logo carousel -->
+<div class="logo-carousel-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="logo-carousel-inner">
+                    <div class="single-logo-item">
+                        <img src="/assets/img/company-logos/1.png" alt="">
+                    </div>
+                    <div class="single-logo-item">
+                        <img src="/assets/img/company-logos/2.png" alt="">
+                    </div>
+                    <div class="single-logo-item">
+                        <img src="/assets/img/company-logos/3.png" alt="">
+                    </div>
+                    <div class="single-logo-item">
+                        <img src="/assets/img/company-logos/4.png" alt="">
+                    </div>
+                    <div class="single-logo-item">
+                        <img src="/assets/img/company-logos/5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end logo carousel -->

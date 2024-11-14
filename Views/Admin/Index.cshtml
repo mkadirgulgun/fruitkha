@@ -1,0 +1,36 @@
+﻿@model List<Product>
+@{
+    Layout = "_AdminLayout";
+}
+
+<section id="products" class="panel-section">
+    <h2>Ürünler</h2>
+    <p><a href="/admin/AddProduct">+ Ürün Ekle</a></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Ürün ID</th>
+                <th>Ürün Adı</th>
+                <th>Kategori</th>
+                <th>Stok Durumu</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.CategoryName</td>
+                    <td>@product.Stock</td>
+                    <td>
+                        <button class="edit-btn"><a href="/admin/editproduct/@product.Id">Düzenle</a></button>
+                        <button class="delete-btn"><a href="/admin/Delete/@product.Id" onclick="return confirm('Emin misin?')">Sil</a></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

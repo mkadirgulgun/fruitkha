@@ -1,0 +1,116 @@
+﻿@model List<Product>
+@{
+    Layout = "_AdminLayout";
+}
+
+<style>
+    /* General form styling */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    label {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="file"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+        }
+
+    input[type="file"] {
+        padding: 3px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    .alert {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .alert-primary {
+        color: #004085;
+        background-color: #cce5ff;
+        border-color: #b8daff;
+    }
+
+</style>
+
+<div class="container">
+    <form class="row g-3 mb-1" method="post" action="/Admin/AddProduct" autocomplete="off" enctype="multipart/form-data">
+
+        <label for="Name">Ürün Adı</label>
+        <input type="text" class="form-control" style="background-color: white" name="Name" required placeholder="Ürün Adı" />
+
+        <label for="Stock">Stok</label>
+        <input type="number" class="form-control" style="background-color: white" name="Stock" required placeholder="Stok" />
+
+
+        <label for="Price">Fiyat</label>
+        <input type="number" class="form-control" style="background-color: white" name="Price" required placeholder="Fiyat" />
+
+        <label for="Name">Ürün Detayı</label>
+        <input type="text" class="form-control" style="background-color: white" name="Details" required placeholder="Ürün Detayı" />
+
+        <label class="form-label">Kategori</label>
+        <select id="CategoryName" name="CategoryId">
+        @foreach (var category in Model)
+        {
+        <option value="@category.Id">@category.CategoryName</option>
+        }
+        </select>
+
+        <label for="Image">Fotoğraf</label>
+        <input type="file" name="Image" accept="image/png, image/jpeg" />
+
+        <button class="btn btn-primary">Ekle</button>
+
+        @if (ViewData["Mesaj"] != null)
+        {
+            <div class="alert alert-primary" role="alert">
+                @ViewData["Mesaj"]
+            </div>
+        }
+    </form>
+</div>

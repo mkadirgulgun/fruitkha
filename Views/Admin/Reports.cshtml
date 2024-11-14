@@ -1,0 +1,106 @@
+﻿@model List<UserReport>
+@{
+    Layout = "_AdminLayout";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    h2 {
+        color: #555;
+    }
+
+    .report-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+        .report-table th, .report-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .report-table th {
+            background-color: #f4f4f4;
+        }
+
+        .report-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .report-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+</style>
+
+<div class="container">
+    <h1>Satış Raporları</h1>
+    <h2>Kullanıcı Raporları</h2>
+    <table class="report-table">
+        <thead>
+            <tr>
+                <th>Kullanıcı Id</th>
+                <th>Email</th>
+                <th>Satın Alınan Adet</th>
+                <th>Ödenen Miktar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserId</td>
+                    <td>@user.Email</td>
+                    <td>@user.ProductsNumber</td>
+                    <td>@user.TotalAmount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Ürün Raporları</h2>
+    <table class="report-table">
+        <thead>
+            <tr>
+                <th>Ürün ID</th>
+                <th>Ürün Adi</th>
+                <th>Ürün Fiyati</th>
+                <th>Toplam Satılan Adet</th>
+                <th>Toplam Satış</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in ViewBag.Products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.SalesQuantity</td>
+                    <td>@product.TotalSales TL</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

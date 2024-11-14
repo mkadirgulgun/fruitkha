@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Fruitkha.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fruitkha.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\base\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\base\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\common\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\common\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\common\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\common\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\pages\\_404.css",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_404.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\pages\\_404.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_404.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\pages\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\pages\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\prepros-6.config",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_cart-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_cart-banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_hero.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_list.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_news.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_shop-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_shop-banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\css\\scss\\sections\\_testimonials.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_testimonials.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\a.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\abt.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\abt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\avaters\\avatar1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\avaters\\avatar2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\avaters\\avatar3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar3.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\company-logos\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\company-logos\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\company-logos\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\company-logos\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\company-logos\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\dd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\feature-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\hero-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\homepage-bg-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-bg-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\latest-news\\news-bg-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\products\\product-img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\form-validate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\jquery.isotope-3.0.6.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.isotope-3.0.6.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\sticker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sticker.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot_"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot_"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot_"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\IMD-License.txt",
+      "PackagePath": "staticwebassets\\help-documentation\\IMD-License.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\main.css",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\css\\responsive-leyouts.css",
+      "PackagePath": "staticwebassets\\help-documentation\\css\\responsive-leyouts.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\help-documentation\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\index.html",
+      "PackagePath": "staticwebassets\\help-documentation\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\jhighlight\\jquery.highlight.css",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\jhighlight\\jquery.highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\jhighlight\\jquery.highlight.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\jhighlight\\jquery.highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\pagescroll\\animatescroll.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\pagescroll\\animatescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\pagescroll\\animatescroll.min.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\pagescroll\\animatescroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\pagescroll\\animatescroll.noeasing.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\pagescroll\\animatescroll.noeasing.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\pagescroll\\custom.css",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\pagescroll\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\pagescroll\\jquery-1.8.3.min.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\pagescroll\\jquery-1.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\help-documentation\\js\\universal\\jquery.js",
+      "PackagePath": "staticwebassets\\help-documentation\\js\\universal\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\144eee72-057e-4d0d-876e-b35c403dff88.jpg",
+      "PackagePath": "staticwebassets\\uploads\\144eee72-057e-4d0d-876e-b35c403dff88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\e3b3cd99-3676-4d3f-9c62-02e341264d7b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e3b3cd99-3676-4d3f-9c62-02e341264d7b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\Fruitkha\\wwwroot\\uploads\\product-img-6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product-img-6.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Fruitkha.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Fruitkha.props",
+      "PackagePath": "build\\Fruitkha.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fruitkha.props",
+      "PackagePath": "buildMultiTargeting\\Fruitkha.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fruitkha.props",
+      "PackagePath": "buildTransitive\\Fruitkha.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,75 @@
+﻿@model List<Product>
+<style>
+    .search-results {
+        padding: 50px 0;
+    }
+
+        .search-results .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+    .result-item {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+        .result-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .result-item h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .result-item p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+            .result-item p a {
+                color: #007bff;
+                text-decoration: none;
+                margin-left: 10px;
+                font-size: 14px;
+            }
+
+                .result-item p a:hover {
+                    text-decoration: underline;
+                }
+
+</style>
+
+<div class="search-results">
+    <div class="container">
+        @if (!Model.Any())
+        {
+            <p>Ürün bulunamadı</p>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="result-item">
+                    <img src="/uploads/@item.ImgUrl" alt="@item.Name">
+                    <div>
+                        <h3>@item.Name</h3>
+                        <p>@item.Price TL<a href="/home/detail/@item.Id">Ürün sayfasına git</a></p>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

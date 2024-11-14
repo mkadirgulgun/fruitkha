@@ -1,0 +1,193 @@
+﻿@model List<StatusReport>
+
+@{
+    Layout = "_AdminLayout";
+    var groupedOrders = Model.GroupBy(x => x.Email).ToList();
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .admin-panel {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #444;
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+            nav ul li {
+                margin: 0;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    display: block;
+                    transition: background-color 0.3s ease;
+                }
+
+                    nav ul li a:hover {
+                        background-color: #555;
+                    }
+
+    .panel-section {
+        margin-bottom: 40px;
+    }
+
+        .panel-section h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .edit-btn, .delete-btn, .status-btn {
+        padding: 8px 12px;
+        margin: 2px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .edit-btn {
+        background-color: #4CAF50;
+    }
+
+    .delete-btn {
+        background-color: #f44336;
+    }
+
+    .status-btn {
+        background-color: #2196F3;
+    }
+
+        .edit-btn:hover, .delete-btn:hover, .status-btn:hover {
+            opacity: 0.8;
+        }
+
+    .status-select {
+        padding: 6px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+</style>
+
+<div class="panel-section">
+    <h2>Sipariş Durumunu Değiştir</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Müşteri</th>
+                <th>Siparişler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var group in groupedOrders)
+            {
+                <tr>
+                    <td>
+                        <button type="button" class="collapsible">@group.Key</button>
+                    </td>
+                    <td>
+                        <div class="content">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Sipariş ID</th>
+                                        <th>Ürün</th>
+                                        <th>Adet</th>
+                                        <th>Durum</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in group)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.Quantity</td>
+                                            <td>
+                                                <form method="post" action="/admin/ChangeStatus">
+                                                    <select class="status-select" id="Status" name="StatusId">
+                                                        @foreach (var status in ViewBag.Status)
+                                                        {
+                                                            <option selected="@(status.Id == item.StatusId ? "selected" : null)" value="@status.Id">@status.Status</option>
+                                                        }
+                                                    </select>
+                                                    <input type="hidden" name="Id" value="@item.Id" />
+                                                    <button type="submit">Güncelle</button>
+                                                </form>
+                                            </td>
+                                            
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>

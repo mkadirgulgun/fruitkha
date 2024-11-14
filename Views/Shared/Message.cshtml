@@ -1,0 +1,20 @@
+﻿<style>
+    /* Add this CSS to position the alert correctly */
+    .alert {
+        position: relative;
+        top: 20px; /* Adjust this value to control the space between the navbar and the alert */
+        margin-bottom: 0;
+        z-index: 1; /* Ensures the alert is above other content */
+    }
+
+    /* Ensure the navbar has a fixed height or padding for the alert to avoid overlap */
+    .top-header-area {
+        position: relative;
+        z-index: 2; /* Keep the navbar above other elements but below the alert */
+        padding-bottom: 20px; /* Adjust the padding to give space for the alert if necessary */
+    }
+
+</style>
+<div class="alert @ViewBag.MessageCssClass" role="alert">
+    @ViewBag.Message
+</div>

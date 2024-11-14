@@ -1,0 +1,35 @@
+﻿@model List<Product>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+
+<section id="categories" class="panel-section">
+    <h2>Kategoriler</h2>
+    <p><a href="/admin/AddCategory">+ Kategori Ekle</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kategori ID</th>
+                <th>Kategori Adı</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.CategoryName</td>
+                    <td>
+                        <button class="edit-btn"><a href="/admin/EditCategory/@category.Id">Edit</a></button>
+                        <button class="delete-btn"><a href="/admin/DeleteCategory/@category.Id" onclick="return confirm('Emin misin?')">Delete</a></button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</section>

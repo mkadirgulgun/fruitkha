@@ -1,0 +1,81 @@
+﻿<style>
+    /* Comments Section */
+    .comments-section {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+        .comments-section .section-title h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: #333;
+            text-align: center;
+        }
+
+    .single-comment {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+        .single-comment .comment-content h4 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .single-comment .rating {
+            color: #f39c12;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .single-comment p {
+            font-size: 14px;
+            color: #555;
+        }
+
+</style>
+<div class="comments-section mt-50 mb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="section-title">
+                    <h3><span class="orange-text">Müşteri</span> Yorumları</h3>
+                </div>
+
+                @if (ViewBag.Comments.Count >= 1)
+                {
+                    @foreach (var comment in ViewBag.Comments)
+                    {
+                        <div class="single-comment">
+                            <div class="comment-content">
+                                <h4>@comment.CustomerName</h4>
+                                <p>
+                                    @for (int i = 1; i <= comment.Rating; i++)
+                                    {
+                                        <span class="rating">★</span>
+                                    }
+                                    @for (int i = comment.Rating + 1; i <= 5; i++)
+                                    {
+                                        <span class="rating">☆</span>
+                                    }
+                                </p>
+                                <p>@comment.CommentDetail</p>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>Bu ürün için yorum bulunmamaktadır </p>
+                }
+
+
+            </div>
+        </div>
+    </div>
+</div>

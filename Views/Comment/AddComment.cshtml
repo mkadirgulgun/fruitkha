@@ -1,0 +1,81 @@
+﻿@model StatusReport
+<style>
+    .review-form-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .review-form h2 {
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .review-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    .review-form .form-control {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+        .review-form .form-control:focus {
+            border-color: #5cb85c;
+            box-shadow: none;
+        }
+
+    .review-form button {
+        background-color: #5cb85c;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .review-form button:hover {
+            background-color: #4cae4c;
+        }
+</style>
+
+<div class="review-form-container">
+    <form class="review-form" method="post">
+        <h2>Yorum Yap</h2>
+        <div class="form-group">
+            <label for="name">Adınız</label>
+            <input type="text" class="form-control" id="name" name="CustomerName" value="@Model.CustomerName" placeholder="Adınızı girin">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="Email" value="@Model.Email"   placeholder="Email adresinizi girin">
+        </div>
+        <div class="form-group">
+            <lasbel for="rating">Puanlama</lasbel>
+            <select class="form-control" id="rating" name="Rating">
+                <option value="5">5 - Çok İyi</option>
+                <option value="4">4 - İyi</option>
+                <option value="3">3 - Orta</option>
+                <option value="2">2 - Kötü</option>
+                <option value="1">1 - Çok Kötü</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="comment">Yorumunuz</label>
+            <textarea class="form-control" id="comment" rows="5" name="CommentDetail" placeholder="Yorumunuzu yazın"></textarea>
+        </div>
+        <input type="hidden" value="@Model.ProductId" name="ProductId" />
+        <input type="hidden" value="1" name="Id" />
+
+        <button type="submit">Yorum Gönder</button>
+    </form>
+</div>
+<!-- Yorum Formu Bitiş -->
